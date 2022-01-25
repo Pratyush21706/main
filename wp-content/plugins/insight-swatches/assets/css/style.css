@@ -1,0 +1,69 @@
+.isw-empty, .isw-swatch + select:not(.isw-selectbox), .isw-term.isw-disabled:after, .isw-term.isw-disabled:before {
+    display: none
+}
+
+.isw-swatch {
+    margin-bottom: 10px
+}
+
+.isw-white {
+    border: 1px solid #ddd
+}
+
+.isw-white.isw-selected {
+    border: none
+}
+
+.isw-term {
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-right: 5px
+}
+
+.isw-term.isw-selected {
+    box-shadow: 0 0 4px rgba(0, 0, 0, .8)
+}
+
+.isw-term.isw-disabled {
+    opacity: .4;
+    cursor: default
+}
+
+.isw-swatch--isw_color {
+    font-size: 0
+}
+
+.isw-swatch--isw_color .isw-term {
+    height: 20px;
+    width: 20px;
+    line-height: 20px
+}
+
+.isw-swatch--isw_text .isw-term {
+    font-weight: 600
+}
+
+form.isw-swatches .isw-term {
+    margin-right: 15px
+}
+
+form.isw-swatches .isw-swatch {
+    display: inline-block;
+    margin-bottom: 0
+}
+
+form.isw-swatches .isw-swatch--isw_color .isw-term {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    line-height: 25px
+}
+
+form.isw-swatches .isw-swatch--isw_text .isw-term {
+    font-size: 16px
+}
+
+select.isw-dropdown-color, select.isw-dropdown-text, select.isw-dropdown-image {
+    display: none !important;
+}
